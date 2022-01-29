@@ -1,0 +1,53 @@
+[
+  {
+    id: 0,
+    name: 'J.K. Rowling'
+  },
+  {
+    id: 1,
+    name: 'J.K. Sister'
+  },
+  {
+    id: 2,
+    name: 'J.K. Brother'
+  },
+  {
+    id: 3,
+    name: 'J.K. Mother'
+  },
+  {
+    id: 0,
+    name: 'Harry Potter and the stone of the wizard',
+    authorId: 0
+  },
+  {
+    id: 1,
+    name: 'Harry Potter and the Chamber of Secrets',
+    authorId: 0
+  },
+  {
+    id: 2,
+    name: 'Harry Potter and the Prisoner of Azkaban',
+    authorId: 0
+  },
+  {
+    id: 3,
+    name: 'Harry Potter and the Goblet of Fire',
+    authorId: 1
+  },
+  {
+    id: 4,
+    name: 'Harry Potter and the Order of the Phoenix',
+    authorId: 1
+  },
+  {
+    id: 5,
+    name: 'Harry Potter and the Half-Blood Prince',
+    authorId: 2
+  },
+  {
+    id: 6,
+    name: 'Harry Potter and the Deathly Hallows',
+    authorId: 3
+  }
+]

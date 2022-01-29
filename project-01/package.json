@@ -1,0 +1,21 @@
+{
+  "name": "project-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harry",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.1.8",
+    "nodemon": "^2.0.15"
+  }
+}
