@@ -1,6 +1,7 @@
 const express = require('express');
 const dotenv = require('dotenv');
 dotenv.config({path: './config.env'});
+const cors = require('cors');
 
 const app = express();
 const {graphqlHTTP} = require('express-graphql');
@@ -98,6 +99,7 @@ const root = {
   }
 };
 
+app.use(cors());
 app.use('/graphql', graphqlHTTP({
   schema: schema,
   rootValue: root,
