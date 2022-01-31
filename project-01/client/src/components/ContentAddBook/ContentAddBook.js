@@ -23,7 +23,6 @@ function ContentAddBook() {
     }
   }
 
-
   return (
     <div className='content-add-book'>
       <form id="add-book">
