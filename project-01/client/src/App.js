@@ -1,10 +1,10 @@
 import './App.css';
 import ContentBookList from "./components/ContentBookList/ContentBookList";
 import ContentAddBook from "./components/ContentAddBook/ContentAddBook";
-import {ApolloClient, InMemoryCache, ApolloProvider, useQuery, gql} from "@apollo/client";
+import {ApolloClient, InMemoryCache, ApolloProvider} from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: 'http://localhost:3000/graphql', //specifies the URL of our GraphQL server.
+  uri: 'http://localhost:3000/graphql?', // specifies the URL of our GraphQL server.
   cache: new InMemoryCache(), // is an instance of InMemoryCache, which Apollo Client uses to cache query results after fetching them.
 });
 

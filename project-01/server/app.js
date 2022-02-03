@@ -66,8 +66,9 @@ const helperFunction = async (type) => {
 // The root provides a resolver function for each API endpoint
 const root = {
   book: async (args) => {
-    await helperFunction('author');
-    return books.find(el => el.id === args.id);
+    const book = await Book.findById(args.id).populate('author');
+    await book.author.populate('books');
+    return book;
   },
 
   books: () => {
